@@ -1,0 +1,1 @@
+"""Text embedding module using various providers.""" 
