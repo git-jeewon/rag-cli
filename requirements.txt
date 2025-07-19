@@ -1,0 +1,60 @@
+# Database
+sqlalchemy>=2.0.0
+psycopg[binary]>=3.1.0  # Modern PostgreSQL adapter (easier to install)
+psycopg[pool]>=3.1.0    # Connection pooling support
+alembic>=1.12.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# CLI
+click>=8.1.0
+rich>=13.0.0
+typer>=0.9.0
+
+# Data Ingestion
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+praw>=7.7.0  # Reddit API
+tweepy>=4.14.0  # Twitter API
+google-api-python-client>=2.100.0  # YouTube API
+youtube-transcript-api>=0.6.0
+
+# Text Processing
+nltk>=3.8.0
+spacy>=3.7.0
+langdetect>=1.0.9
+
+# Embeddings
+sentence-transformers>=2.2.0
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# Vector Search
+numpy>=1.24.0
+# Note: Install faiss separately if needed: pip install faiss-cpu --no-cache-dir
+# For M1/M2 Macs, you may need: conda install -c conda-forge faiss-cpu
+
+# LangChain for RAG
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.15
+
+# Data Processing
+pandas>=2.1.0
+python-dateutil>=2.8.0
+
+# Logging and Monitoring
+structlog>=23.1.0
+colorlog>=6.7.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Async support
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.2 

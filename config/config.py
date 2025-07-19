@@ -21,7 +21,7 @@ class DatabaseConfig:
     @property
     def url(self) -> str:
         """Get PostgreSQL connection URL."""
-        return f"postgresql://{self.username}:{self.password}@{self.host}:{self.port}/{self.database}"
+        return f"postgresql+psycopg://{self.username}:{self.password}@{self.host}:{self.port}/{self.database}"
 
 
 @dataclass
